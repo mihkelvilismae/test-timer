@@ -91,6 +91,4 @@ public class MainActivity extends AppCompatActivity {
         this.listItems.add(this.counter.toString() + " - " + itemToAdd);
         adapter.notifyDataSetChanged();
     }
-
-
 }
